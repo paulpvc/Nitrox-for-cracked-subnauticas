@@ -284,7 +284,7 @@ namespace NitroxLauncher
             }
             else if (PlatformDetection.IsSteam(subnauticaPath))
             {
-                startInfo.FileName = "steam://run/264710";
+                startInfo.FileName = "steam://rungameid/17810274356207550464";
             }
 
             return Process.Start(startInfo);
